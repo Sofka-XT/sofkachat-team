@@ -94,7 +94,7 @@ function ChatMessage({ message }) {
 
   return (
     <div children={"message " + messageOrderClass}>
-      <img src={photoURL} alt={"avatar"} />
+      <img src={photoURL} alt={"avatar"} style={{width: "50px"}} />
       <small>{displayName}</small>
       <p>{text}</p>
     </div>
